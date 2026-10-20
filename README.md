@@ -23,11 +23,12 @@ Current version: [0.7.2](https://github.com/diebrudie/wisprown/releases/tag/v0.7
 - **Your own dictionary:** add names and terms, and it learns from the corrections you make.
 - **Optional AI clean-up:** bring your own API key to remove filler words. Off by default.
 - **Insights:** words per day, words per minute, streaks and time saved compared to typing.
+- **Meetings:** transcribe a call or interview while it runs, with your lines as "Me" and the other side as "Them". A floating pill shows the waveform and a Stop button; each meeting is saved with date, time and length, ready to rename, copy or save as Markdown. Tell the people on the call first.
 
 ## Requirements
 
 - Apple Silicon Mac (M1 or newer)
-- macOS 14 (Sonoma) or newer
+- macOS 14.2 (Sonoma) or newer
 - About 4 GB free disk space (the speech models download on first launch)
 - 16 GB RAM recommended
 
@@ -44,7 +45,7 @@ Current version: [0.7.2](https://github.com/diebrudie/wisprown/releases/tag/v0.7
 
 ## Privacy
 
-Everything runs on-device. The only network activity is the one-time model download from Hugging Face. If you add your own AI provider key, transcripts (text only, never audio) are sent to that provider to be cleaned up. Leave it empty and nothing leaves your Mac.
+Everything runs on-device. The only network activity is the one-time model download from Hugging Face. If you add your own AI provider key, transcripts (text only, never audio) are sent to that provider to be cleaned up. Leave it empty and nothing leaves your Mac. Meeting transcripts are stored on your Mac only, and no audio is ever kept.
 
 ## License
 
