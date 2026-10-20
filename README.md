@@ -9,7 +9,7 @@ no cloud, no subscription, and your audio never leaves your computer.
 
 **[⬇ Download the latest version](https://github.com/diebrudie/wisprown/releases/latest/download/WisprOwn.zip)**
 
-Current version: [0.7.1](https://github.com/diebrudie/wisprown/releases/tag/v0.7.1), released 12 October 2026
+Current version: [0.7.2](https://github.com/diebrudie/wisprown/releases/tag/v0.7.2), released 20 October 2026
 
 </div>
 
