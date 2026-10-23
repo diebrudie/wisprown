@@ -22,8 +22,8 @@ Current version: [0.8.0](https://github.com/diebrudie/wisprown/releases/tag/v0.8
 - **English, German, Spanish and more:** the language is detected automatically.
 - **Your own dictionary:** add names and terms, and it learns from the corrections you make.
 - **Optional AI clean-up:** bring your own API key to remove filler words. Off by default.
-- **Insights:** words per day, words per minute, streaks and time saved compared to typing.
-- **Meetings:** transcribe a call or interview while it runs, with your lines as "Me" and the other side as "Them". A floating pill shows the waveform and a Stop button; each meeting is saved with date, time and length, ready to rename, copy or save as Markdown. Tell the people on the call first.
+- **Insights:** words per day, words per minute, streaks and time saved compared to typing. Count from today whenever you want a fresh start.
+- **Notetaker:** transcribe a call or interview while it runs, with your lines as "Me" and the other side as "Them". Add the people's names afterwards and every line shows who spoke. With your own API key it writes a summary with key points and a fitting title. Copy it, or download it as a PDF or Markdown file. A small floating widget shows the time and a Stop button, and WisprOwn can notice when a call starts or a calendar meeting is due. Tell the people on the call first.
 
 ## Requirements
 
@@ -45,7 +45,7 @@ Current version: [0.8.0](https://github.com/diebrudie/wisprown/releases/tag/v0.8
 
 ## Privacy
 
-Everything runs on-device. The only network activity is the one-time model download from Hugging Face. If you add your own AI provider key, transcripts (text only, never audio) are sent to that provider to be cleaned up. Leave it empty and nothing leaves your Mac. Meeting transcripts are stored on your Mac only, and no audio is ever kept.
+Everything runs on-device. The only network activity is the one-time model download from Hugging Face. If you add your own AI provider key, transcripts (text only, never audio) are sent to that provider to be cleaned up. Leave it empty and nothing leaves your Mac. Meeting transcripts are stored on your Mac only, and no audio is ever kept. A meeting summary is made only when you ask for one, and then the transcript text goes to your provider.
 
 ## License
 
